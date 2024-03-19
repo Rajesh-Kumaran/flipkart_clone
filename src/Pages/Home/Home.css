@@ -1,0 +1,26 @@
+.Home {
+    background-color: white;
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.Home-CategoryContainer {
+    width: 100%;
+    box-shadow: 0px 0px 2px gray;
+}
+
+.Home-CategoryBar {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.Home-Container {
+    padding: 0 40px;
+}

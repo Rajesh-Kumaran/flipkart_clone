@@ -1,0 +1,223 @@
+.ProductDetails {
+    display: flex;
+    padding: 80px 10px 10px 20px;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: rgb(247, 246, 246);
+}
+
+.ProductDetails-left {
+    display: flex;
+    width: 40%;
+}
+
+.otherImgs {
+    display: flex;
+    flex-direction: column;
+}
+
+.proimg {
+    width: 50px;
+    height: 60px;
+    object-fit: contain;
+    margin: 10px;
+    border: 1px solid rgb(226, 222, 222);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.proimg:hover {
+    border: 1px solid rgb(66, 127, 240);
+}
+
+.ProductDetail-Img {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid rgb(221, 218, 218); */
+    padding: 20px 10px;
+}
+
+.ProductDetail-Img > img {
+    width: 195px;
+    height: 416px;
+    object-fit: contain;
+}
+
+.ProductDetail-btns {
+    width: 100%;
+}
+
+.ProductDetail-btn {
+    width: 200px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding: 18px 8px;
+    margin: 1rem 4px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.ProductDetail-btn:nth-child(1) {
+    background: #ff9f00;
+}
+.ProductDetail-btn:nth-child(2) {
+    background: #fb641b;
+}
+
+.ProductDetails-right {
+    width: 60%;
+    padding: 10px 20px;
+}
+
+.ProductName {
+    letter-spacing: 1px;
+    color: #212121;
+    font-size: 18px;
+}
+
+.ratingsreviews {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.price {
+    padding-top: 8px;
+    font-size: 28px;
+}
+
+.packfee {
+    font-size: 14px;
+    color: #212121;
+    font-weight: 300;
+    padding: 5px 0;
+}
+
+.availableoff {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.offers {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.offers > div > b {
+    padding-right: 5px;
+}
+
+.offers > img {
+    margin-right: 5px;
+}
+
+.description {
+    padding: 20px 0;
+}
+
+.colors {
+    display: flex;
+}
+
+.color {
+    color: #a7a5a5;
+}
+
+.colorimgs {
+    padding: 0 80px;
+}
+
+.colorimgs > img {
+    width: 60px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 8px;
+    border: 2px solid #ece9e9;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.colorimgs > img:hover {
+    border: 2px solid #1435f0;
+}
+
+.highlights {
+    display: flex;
+    padding: 20px 0;
+}
+
+.highlight {
+    padding: 0 50px;
+}
+
+.highlight-title {
+    color: #a7a5a5;
+}
+
+.hightlight-item {
+    padding: 0 0 8px 12px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.RatingsAndReview-title {
+    font-size: 25px;
+}
+
+.RatingsAndReviews-container {
+    display: flex;
+    padding: 20px 0;
+}
+
+.RatingsAndReviews-stars {
+    width: 150px;
+    text-align: center;
+    padding: 0 40px 10px 0;
+    margin-top: 1rem;
+}
+
+.RatingsAndReviews-reviews {
+    font-size: 25px;
+}
+
+.RatingsAndReviews-ratings {
+    font-size: 14px;
+    color: #2b2a2a;
+    font-weight: 300;
+    padding: 5px 0;
+}
+
+.RatingsAndReviews-charts > li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.star {
+    padding: 0 10px;
+}
+
+.bar {
+    width: 300px;
+    height: 5px;
+    background-color: #cccaca;
+    border-radius: 10px;
+}
+
+.innerbar {
+    background-color: rgb(3, 112, 8);
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
